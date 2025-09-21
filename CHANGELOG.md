@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.0.1] - 2025-01-21
+## [0.0.2] - 2025-01-21
 
 ### Added
 - Initial release of Awesome Bottom Sheet package
@@ -14,4 +14,3 @@
 - Beautiful slide-up animation with fade effects
 - Comprehensive test suite
 - Example app demonstrating all features
-- Full API documentation
