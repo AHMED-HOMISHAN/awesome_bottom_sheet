@@ -36,7 +36,7 @@ flutter pub get
 
 
 
-https://github.com/user-attachments/assets/4ab50301-a6fb-4442-b4d1-7acc9ea55af7
+<img src="https://raw.githubusercontent.com/AHMED-HOMISHAN/awesome_bottom_sheet/main/doc/aswesome_bottom_sheet.gif" alt="Demo Aswesome Bottom Sheet" >
 
 
 
