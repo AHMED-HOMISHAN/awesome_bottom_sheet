@@ -23,7 +23,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  awesome_bottom_sheet: ^0.0.1
+  awesome_bottom_sheet: ^0.0.5
 ```
 
 Then run:
