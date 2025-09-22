@@ -1,6 +1,6 @@
 name: awesome_bottom_sheet
 description: "A beautiful and customizable Flutter package for displaying animated message bottom sheets with support for different message types, custom styling, and Lottie animations."
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/AHMED-HOMISHAN/awesome_bottom_sheet
 repository: https://github.com/AHMED-HOMISHAN/awesome_bottom_sheet
 issue_tracker: https://github.com/AHMED-HOMISHAN/awesome_bottom_sheet/issues

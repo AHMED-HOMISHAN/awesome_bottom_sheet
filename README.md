@@ -23,7 +23,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  awesome_bottom_sheet: ^0.0.5
+  awesome_bottom_sheet: ^0.0.6
 ```
 
 Then run:
@@ -46,7 +46,7 @@ flutter pub get
 
 #### Info Message
 ```dart
-AwesomeMessageBottomSheet.showInfo(
+AwesomeMessageService.showInfo(
   context: context,
   title: 'Information',
   description: 'This is an informational message.',
@@ -55,7 +55,7 @@ AwesomeMessageBottomSheet.showInfo(
 
 #### Success Message
 ```dart
-AwesomeMessageBottomSheet.showSuccess(
+AwesomeMessageService.showSuccess(
   context: context,
   title: 'Success!',
   description: 'Operation completed successfully.',
@@ -64,7 +64,7 @@ AwesomeMessageBottomSheet.showSuccess(
 
 #### Warning Message
 ```dart
-AwesomeMessageBottomSheet.showWarning(
+AwesomeMessageService.showWarning(
   context: context,
   title: 'Warning',
   description: 'Please proceed with caution.',
@@ -73,7 +73,7 @@ AwesomeMessageBottomSheet.showWarning(
 
 #### Error Message
 ```dart
-AwesomeMessageBottomSheet.showError(
+AwesomeMessageService.showError(
   context: context,
   title: 'Error',
   description: 'Something went wrong.',
@@ -84,7 +84,7 @@ AwesomeMessageBottomSheet.showError(
 
 #### Custom Colors and Actions
 ```dart
-AwesomeMessageBottomSheet.showInfo(
+AwesomeMessageService.showInfo(
   context: context,
   title: 'Custom Message',
   description: 'This message has custom styling.',
@@ -107,7 +107,7 @@ AwesomeMessageBottomSheet.showInfo(
 
 #### Non-Dismissible Message
 ```dart
-AwesomeMessageBottomSheet.showWarning(
+AwesomeMessageService.showWarning(
   context: context,
   title: 'Important!',
   description: 'This message cannot be dismissed by tapping outside.',
@@ -122,7 +122,7 @@ AwesomeMessageBottomSheet.showWarning(
 
 #### Custom Lottie Animation
 ```dart
-AwesomeMessageBottomSheet.showSuccess(
+AwesomeMessageService.showSuccess(
   context: context,
   title: 'Custom Animation',
   description: 'This message uses a custom Lottie animation.',
@@ -132,7 +132,7 @@ AwesomeMessageBottomSheet.showSuccess(
 
 ## API Reference
 
-### AwesomeMessageBottomSheet Static Methods
+### AwesomeMessageService Static Methods
 
 | Method | Description |
 |--------|-------------|

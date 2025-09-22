@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.6] - 2025-09-22
+
+- Updated documentation.
+
 ## [0.0.5] - 2025-09-22
 
 - Upgrade dependencies.
