@@ -1,0 +1,23 @@
+# A .pubignore replaces .gitignore for pub, so it must repeat the build
+# artifacts, and then trims the archive: every file here is downloaded by
+# every `pub get`. The demo GIF stays in git for GitHub only.
+.dart_tool/
+build/
+coverage/
+/pubspec.lock
+*.iml
+.idea/
+.DS_Store
+*.log
+doc/*.gif
+graft/
+.ignore
+.github/
+.metadata
+example/.metadata
+example/.vscode/
+example/android/
+example/pubspec.lock
+example/build/
+example/.dart_tool/
+doc/*.md

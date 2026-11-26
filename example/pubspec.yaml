@@ -1,21 +1,23 @@
 name: awesome_bottom_sheet_example
-description: Example app for awesome_bottom_sheet package
+description: Demonstrates the awesome_bottom_sheet package.
 version: 1.0.0+1
+publish_to: none
 
 environment:
-  sdk: ^3.6.1
-  flutter: ">=1.17.0"
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
 
 dependencies:
   flutter:
     sdk: flutter
   awesome_bottom_sheet:
     path: ../
+  material_ui: ^1.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true

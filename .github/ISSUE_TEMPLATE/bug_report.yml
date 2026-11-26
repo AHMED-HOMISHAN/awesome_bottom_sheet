@@ -1,0 +1,32 @@
+name: Bug report
+description: Something does not work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: A short snippet or steps that trigger the problem.
+      render: dart
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: awesome_bottom_sheet version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Output of `flutter doctor -v`, plus the platform where it fails.
+      render: shell
